@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>home</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta charset="utf-8">
+    </head>
+    <script src="main.js" charset="utf-8" type="text/javascript"></script>
+    <body onload="firstLoad()">
+        <div class="container">
+            <div class="top-row">
+                <form method="get" action="http://www.google.com/search"><input type="text"   name="q" size="25" style="color:black;"
+                    maxlength="255" value="" onfocus="reset()"/>
+                    <input type="hidden" value="google.com" /></td></tr></form>
+                <p>this is where the weather will be</p>
+            </div>
+            <div class="main-content-buttons">
+                <button onclick="tab('mainContent1')">social</button>
+                <button onclick="tab('mainContent2')">reference</button>
+                <button onclick="tab('mainContent3')">work</button>
+                <button onclick="tab('mainContent4')">todo</button>
+            </div>
+            <div class="main-content">
+                <div id="mainContent1" class="main-content-1-style">
+                    <ul><a href="https://google.com">google</a></ul>
+                    <ul><a href="https://facebook.com">facebook</a></ul>
+                    <ul><a href="https://twitter.com">twitter</a></ul>
+                </div>
+                <p id="mainContent2">this is the second test content</p>
+                <p id="mainContent3">this is the third test content</p>
+                <p id="mainContent4">this is the fourth test content</p>
+            </div>
+            <div class="news-box">
+                <p>blah</p>
+                <p></p>
+                <p>blah blah blah</p>
+            </div>
+            <div class="bottom-container"></div>
+                <div class="calendar-box">
+                    this is where the calendar will go
+                </div>
+                
+                <div class="time-box">
+                    <div id="time"></div>
+                    <div id="date"></div>                    
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

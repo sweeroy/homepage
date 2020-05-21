@@ -1,0 +1,103 @@
+a {
+    color: white;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+.container {
+    flex-direction: column;
+    font-family: sans-serif;
+  }
+
+.top-row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    opacity: 60%;
+    color: white;
+}
+.main-content-buttons {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border: none;
+    opacity: 60%;
+    color: white;
+}
+
+.main-content {
+    display: flex;
+    height: 30%;
+    background-color:#385249;
+    color: white;
+    justify-content: center;
+    opacity: 60%;
+}
+
+.main-content-1-style {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news-box {
+    text-align: center;
+    color: white;
+    background-color: #6db49b;
+    opacity: 60%;
+}
+
+.bottom-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.calendar-box {
+    display: flex;
+    text-align: center;
+    color: white;
+}
+
+.time-box {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    flex: 50%;
+    font-size: 50;
+    color: lightslategrey;
+    opacity: 100%;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #385249;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+    background: #77a192;
+    ;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
